@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./img/link-svgrepo-com.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Outfit:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="Icon/icon1.png" type="image/x-icon" />
+    <title>URL Shortener</title>
+  </head>
+
+  <body
+    class="selection:bg-drkkgn selection:text-accent text-outfit flex flex-wrap justify-center content-center h-screen bg-cover"
+  >
+    <div
+      id="outerdiv"
+      class="shadow-lg object-stretch shadow-bkg hover:shadow-lg hover:shadow-accent transition-all delay-150 grid sm:flex"
+    >
+      <div id="inner1stdiv" class="overflow-hidden flex justify-center">
+        <img
+          src="./img/earth-2254769_1920.jpg"
+          class="transition-all h-96"
+          alt=""
+        />
+      </div>
+      <div
+        id="innerdiv2"
+        class="hover:text-accent backdrop-blur-xl grow-0 flex content-between justify-center flex-col text-white delay-150 transition-all"
+      >
+        <div class="flex flex-col flex-wrap content-center justify-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-10 mb-4"
+            width="68"
+            height="68"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M136.13,187.77a6,6,0,0,1,0,8.49l-9.95,9.94A54,54,0,0,1,49.8,129.82L73.91,105.7A54,54,0,0,1,148,103.51a6,6,0,1,1-8,9,42,42,0,0,0-57.6,1.71L58.28,138.3a42,42,0,0,0,59.42,59.42l9.94-9.95A6,6,0,0,1,136.13,187.77Zm70.07-138a54.06,54.06,0,0,0-76.38,0l-9.95,9.94a6,6,0,0,0,8.49,8.49l9.94-10a42,42,0,0,1,59.42,59.42L173.6,141.81a42,42,0,0,1-57.6,1.71,6,6,0,1,0-8,9,54,54,0,0,0,74.07-2.19l24.11-24.12A54,54,0,0,0,206.2,49.8Z"
+            ></path>
+          </svg>
+          <h2 class="text-center tracking-widestest">URL Shortener</h2>
+        </div>
+        <div
+          id="inp"
+          class="flex mt-9 m-5 mb-2 justify-center text-white focus-within:text-accent"
+        >
+          <input
+            type="text"
+            class="p-2 mx-4 bg-transparent border-accent delay-50 w-full text-md flex-1 border-b-2 rounded-sm carret-zinc-800 placeholder:text-white placeholder:tracking-widestest focus:placeholder:text-accent focus:outline-none focus:border-white transition-colors"
+            placeholder="Drop Link Here"
+            id="longurl"
+          />
+          <button id="shorten" class="rounded-full p-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              fill="currentColor"
+              viewbox="0 0 256 256"
+            >
+              <path
+                d="M146,104V64a6,6,0,0,1,12,0V89.51l45.76-45.75a6,6,0,0,1,8.48,8.48L166.48,98H192a6,6,0,0,1,0,12H152A6,6,0,0,1,146,104Zm-42,42H64a6,6,0,0,0,0,12H89.52L43.76,203.76a6,6,0,1,0,8.48,8.48L98,166.48V192a6,6,0,0,0,12,0V152A6,6,0,0,0,104,146Zm62.48,12H192a6,6,0,0,0,0-12H152a6,6,0,0,0-6,6v40a6,6,0,0,0,12,0V166.48l45.76,45.76a6,6,0,0,0,8.48-8.48ZM104,58a6,6,0,0,0-6,6V89.51L52.24,43.76a6,6,0,0,0-8.48,8.48L89.52,98H64a6,6,0,0,0,0,12h40a6,6,0,0,0,6-6V64A6,6,0,0,0,104,58Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          id="out"
+          class="flex text-white m-5 justify-center mb-9 focus-within:text-accent"
+        >
+          <input
+            type="text"
+            class="p-2 mx-4 bg-transparent border-accent delay-50 w-full text-md flex-1 border-b-2 rounded-sm carret-zinc-800 placeholder:text-white placeholder:tracking-widestest focus:placeholder:text-accent focus:outline-none focus:border-white transition-colors"
+            placeholder="Shortened Link"
+            id="shorturl"
+          />
+          <button id="copy">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              fill="currentColor"
+              viewbox="0 0 256 256"
+            >
+              <path
+                d="M216,34H88a6,6,0,0,0-6,6V82H40a6,6,0,0,0-6,6V216a6,6,0,0,0,6,6H168a6,6,0,0,0,6-6V174h42a6,6,0,0,0,6-6V40A6,6,0,0,0,216,34ZM162,210H46V94H162Zm48-48H174V88a6,6,0,0,0-6-6H94V46H210Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="./main.js"></script>
+    <script src="./Accshortener.js"></script>
+  </body>
+</html>
