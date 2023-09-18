@@ -8,7 +8,7 @@ markdown
 An internship project, URL shortener with minimilistic UI, user friendly interface which uses API to acctually shorten the link and displays it.  
 HOPE YOU LIKE IT :)
 
-## Technologies Used
+## Technologies Used 
 
 Highlight the technologies, languages, and frameworks used in your project.
 
