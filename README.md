@@ -5,7 +5,7 @@
 markdown
 # Parralax landing page, personal photography portfolio
 
-An internship project, URL shortener with minimilistic UI, user friendly interface which uses [API](www.google.com) to acctually shorten the link and displays it.  
+An internship project, URL shortener with minimilistic UI, user friendly interface which uses [API](https://shrtco.de/docs/) to acctually shorten the link and displays it.  
 HOPE YOU LIKE IT :)
 
 ## Technologies Used 
