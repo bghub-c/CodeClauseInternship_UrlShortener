@@ -2,7 +2,7 @@
 
 ## This repository hosts the code and assets for my internship project URL shortener.
 
-markdown
+
 # URL shortener
 
 An internship project, URL shortener with minimilistic UI, user friendly interface which uses [API](https://shrtco.de/docs/) to acctually shorten the link and displays it.  
