@@ -9,8 +9,6 @@ async function short(){
 
     const result = await fetch(`https://api.shrtco.de/v2/shorten?url=${longURL}`);
     const data = await result.json();
-    if(result==null){
-        console.log("Connect to internet and try aagain...");}
     shortURL.value = data.result.short_link2;
 }
 
